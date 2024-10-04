@@ -144,7 +144,7 @@ spec:
           - key: nginx.conf
             path: nginx.conf
       containers:
-      - name: catalogue
+      - name: web
         image: srikanthnoone/web:1.0.0
         volumeMounts:
         - name: nginx-conf # name of the volume you created above
