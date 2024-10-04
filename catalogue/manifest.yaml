@@ -40,11 +40,10 @@ spec:
       project: roboshop
   ports:
   - name: catalogue-port
-  - port: 8080
+    port: 8080
     targetPort: 8080
 ---
 apiVersion: v1
-kind: apiVersion: v1
 kind: ConfigMap
 metadata:
   name: catalogue
